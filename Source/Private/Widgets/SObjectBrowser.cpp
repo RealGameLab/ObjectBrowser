@@ -210,11 +210,11 @@ TSharedRef<SWidget> SObjectBrowser::MakeFilterMenu()
 	return MenuBuilder.MakeWidget();
 }
 
-void SObjectBrowser::AddBoolFilter(FMenuBuilder& MenuBuilder, FText Text, FText ToolTip, bool* BoolOption)
+void SObjectBrowser::AddBoolFilter(FMenuBuilder& MenuBuilder, FText Text, FText InToolTip, bool* BoolOption)
 {
 	MenuBuilder.AddMenuEntry(
 		Text,
-		ToolTip,
+		InToolTip,
 		FSlateIcon(),
 		FUIAction(
 			FExecuteAction::CreateLambda([=]{ *BoolOption = !( *BoolOption ); RefreshList(); }),

@@ -8,8 +8,8 @@
 	"CreatedByURL" : "http://nickdarnell.com",
 	"EngineVersion" : "4.11.0",
 	"Description" : "A tool for browsing live instances of UObjects in memory.",
-	"Category" : "Editor",
-	"EnabledByDefault" : true,
+	"Category" : "RealGameLab",
+	"EnabledByDefault" : false,
 	
 	"Modules" :
 	[

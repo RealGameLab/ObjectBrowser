@@ -44,7 +44,7 @@ public:
 			HighlightText = InArgs._HighlightText;
 
 			// Get selection icon based on actor(s) classes and add before the selection label
-			ClassIcon = FClassIconFinder::FindIconForClass(Obj->GetClass());
+			ClassIcon = FSlateIconFinder::FindIconBrushForClass(Obj->GetClass());
 		}
 
 		SMultiColumnTableRow<TSharedPtr<int32> >::Construct(FSuperRowType::FArguments(), InOwnerTableView);
