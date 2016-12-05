@@ -3,6 +3,7 @@
 #pragma once
 
 #include "ClassIconFinder.h"
+#include "SWidget.h"
 
 #define LOCTEXT_NAMESPACE "SObjectBrowserTableRow"
 
