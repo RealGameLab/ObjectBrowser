@@ -53,7 +53,7 @@ public:
 
 public:
 
-	BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
+	//BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 	virtual TSharedRef<SWidget> GenerateWidgetForColumn( const FName& ColumnName ) override
 	{
 		if ( ColumnName == NAME_Class )
@@ -88,7 +88,7 @@ public:
 
 		return SNullWidget::NullWidget;
 	}
-	END_SLATE_FUNCTION_BUILD_OPTIMIZATION
+	//END_SLATE_FUNCTION_BUILD_OPTIMIZATION
 
 private:
 

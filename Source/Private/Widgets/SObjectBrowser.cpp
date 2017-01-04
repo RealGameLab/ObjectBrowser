@@ -13,7 +13,7 @@
 /* SObjectBrowser interface
  *****************************************************************************/
 
-BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
+//BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION
 void SObjectBrowser::Construct( const FArguments& InArgs )
 {
 	FilterClass = AActor::StaticClass();
@@ -223,7 +223,7 @@ void SObjectBrowser::AddBoolFilter(FMenuBuilder& MenuBuilder, FText Text, FText 
 	);
 }
 
-END_SLATE_FUNCTION_BUILD_OPTIMIZATION
+//END_SLATE_FUNCTION_BUILD_OPTIMIZATION
 
 void SObjectBrowser::RefreshList()
 {
